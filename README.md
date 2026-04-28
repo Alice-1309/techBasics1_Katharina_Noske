@@ -11,5 +11,5 @@ ___
 4. I am autistic
 5. I am vegan
 6. I like to be creativ *(such as crocheting, make jewelry, sewing, painting, and baking)*
-7. I love to meet up with frinds
+7. I love to meet up with friends
 
