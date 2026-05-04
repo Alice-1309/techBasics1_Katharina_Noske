@@ -15,13 +15,13 @@ import time
 time.sleep(2)
 
 print("""
-Before we know what plant suits to you, you need to answer the following questions:
+Before we know what plant suits you, you need to answer the following questions:
 """)
 
 time.sleep(1)
 
 light = input("""
-How much light does the plant become in the spot you have in mind? 
+How much light does the plant get, in the spot you have in mind? 
 (Answer options: a lot, medium, a little)
 """)
 
@@ -51,7 +51,7 @@ if (
     and humidity == "high"
     and watering == "weekly"
     ):
-    print("Your perfect plant is a monstera deliciosa!")
+    print(f"{name} your perfect plant is a monstera deliciosa!")
 
 #Sansevieria trifasciata (Snake Plant / Mother-in-Law’s Tongue)
 elif (
@@ -60,7 +60,7 @@ elif (
         and humidity == "low"
         and watering == "once per month"
         ):
-        print("Your perfect plant is a sansevieria trifasciata!")
+        print(f"{name} your perfect plant is a sansevieria trifasciata!")
 
 #Calathea makoyana (Peacock Plant)
 elif (
@@ -69,7 +69,7 @@ elif (
         and humidity == "high"
         and watering == "twice per week"
         ):
-        print("Your perfect plant is a calathea makoyana!")
+        print(f"{name} your perfect plant is a calathea makoyana!")
 
 #Peperomia obtusifolia (Baby Rubber Plant)
 elif (
@@ -78,7 +78,7 @@ elif (
         and humidity == "medium"
         and watering == "one every other week"
         ):
-        print("Your perfect plant is a peperomia obtusifolia!")
+        print(f"{name} your perfect plant is a peperomia obtusifolia!")
 
 #Hedera helix (English Ivy)
 elif (
@@ -87,6 +87,6 @@ elif (
         and humidity == "medium" or "high"
         and watering == "every other week"
         ):
-        print("Your perfect plant is a hedera helix")
+        print(f"{name} your perfect plant is a hedera helix")
 
-else: print("Maybe a deco plant suits to you the most.")
+else: print(f"{name} maybe a deco plant suits to you the most.")
