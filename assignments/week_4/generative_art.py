@@ -48,7 +48,7 @@ for _ in range(7):
     goto(x + 37, y)
     pendown()
 
-    # coloring star
+    # coloring pentagon
     fillcolor(star_color)
     pencolor(star_color)
     begin_fill()
